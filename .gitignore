@@ -1,0 +1,16 @@
+# Browser profile and local runtime output
+xhs_profile/
+最新排序_实时监控.txt
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local environment and editor files
+.env
+.env.*
+.DS_Store
+.idea/
+.vscode/
