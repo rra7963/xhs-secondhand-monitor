@@ -58,3 +58,13 @@ XHS Secondhand Monitor 将浏览器自动化、规则过滤、状态去重与本
 - 可用的 Chromium 内核浏览器
 - 支持小红书网页端访问的网络环境
 - 支持系统通知的桌面操作系统
+
+## 安装
+
+建议使用独立虚拟环境，避免依赖与系统 Python 相互影响。
+
+```bash
+python -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+python -m pip install -r requirements.txt
+```
